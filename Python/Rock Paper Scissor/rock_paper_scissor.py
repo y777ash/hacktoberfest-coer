@@ -28,8 +28,8 @@ while(c):
     # Comparing scores to determine the current winner.
     p_choice = input("Enter your choice ")
     # Inputting the choice
-    for j in range(10000):
-        print("\n")
+    for j in range(10):
+        print("\n"*10)
     # This helps to clear the screen each time a move is made.
     c_choice = random.choice(cu)
     # This makes the random choice.
